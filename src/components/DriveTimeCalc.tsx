@@ -21,7 +21,7 @@ const DriveTimeCalc = () => {
 
   const calculate = () => {
     const newHours = (hours: number, ampm: string) => {
-      if (ampm == "PM") {
+      if (ampm == "PM" && hours != 12) {
         return +hours + 12;
       } else return +hours;
     };

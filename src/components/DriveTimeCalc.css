@@ -1,0 +1,30 @@
+.drivetime {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    position: relative;
+    top: 0rem;
+    margin-bottom: 4rem;
+
+}
+
+.entry {
+    background-color: rgb(20,20,20);
+    margin-bottom: 4rem;
+    padding: 0 2rem 2rem 2rem;
+    border-radius: 1rem;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+button {
+    padding: 1rem 0;
+    font-weight: 600;
+    font-size: 1.5rem;
+}

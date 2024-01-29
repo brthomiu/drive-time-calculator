@@ -91,10 +91,6 @@ const DriveTimeCalc = () => {
       </button>
       {isCalculated && (
         <div>
-          <h3>start hours: {startHours}</h3>
-          <h3>start minutes: {startMinutes}</h3>
-          <h3>end hours: {endHours}</h3>
-          <h3>end minutes: {endMinutes}</h3>
           <h3>RESULT: {calculate()}</h3>
         </div>
       )}

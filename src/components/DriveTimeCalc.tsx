@@ -7,7 +7,6 @@ import { useState } from "react";
 // IT WAS MADE TO BE PRACTICAL, NOT PRETTY
 
 const DriveTimeCalc = () => {
-
   const [isCalculated, setIsCalculated] = useState(false);
   const [startAmpm, setStartAmpm] = useState("AM");
   const [startHours, setStartHours] = useState(0);
@@ -37,6 +36,9 @@ const DriveTimeCalc = () => {
     <div className="drivetime">
       <form autoComplete="off">
         <h1 className="title">Drive Time Calculator</h1>
+        <h2>THIS APPLICATION HAS NOT BEEN TESTED</h2>
+        <h2>DO NOT USE IT TO FILL OUT LEGAL FORMS</h2>
+
         <div className="entry">
           <h2>Start Time</h2>
           <div className="inputs">
